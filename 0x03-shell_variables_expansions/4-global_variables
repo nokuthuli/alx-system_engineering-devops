@@ -1,2 +1,7 @@
 #!/bin/bash
+
+# Redirect the output of `env` to the while loop
+while IFS= read -r line; do
+    echo "$line"
 done < <(env)
+
