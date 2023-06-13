@@ -1,2 +1,2 @@
 #!/bin/bash
-cat input.txt | ./print_alternate_lines.sh
+paste - - | cut -fl
